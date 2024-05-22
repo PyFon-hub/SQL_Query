@@ -3,7 +3,7 @@ import psycopg2
 from sqlalchemy import create_engine
 import os
 
-conn_string = "postgresql://postgres:jnatar@localhost:5432/olympics"
+conn_string = "postgresql://postgres:password@localhost:5432/olympics"
 db = create_engine(conn_string)
 conn = db.connect()
 
